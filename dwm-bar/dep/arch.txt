@@ -1,0 +1,5 @@
+xorg-setxkbmap
+extra/mpc
+networkmanager
+curl
+playerctl
