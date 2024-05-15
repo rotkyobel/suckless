@@ -17,13 +17,13 @@ dwm_mpc () {
 
         if [ "$IDENTIFIER" = "unicode" ]; then
             if [ "$STATUS" = "[playing]" ]; then
-                STATUS="▶"
+                STATUS="󰐊"
             else
-                STATUS="⏸"
+                STATUS="󰏤"
             fi
 
             if [ "$SHUFFLE" = "on" ]; then
-                SHUFFLE=" 🔀"
+                SHUFFLE=" 󰒝 "
             else
                 SHUFFLE=""
             fi

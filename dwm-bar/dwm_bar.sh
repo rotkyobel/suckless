@@ -24,8 +24,7 @@ export SEP2="]"
 # Import the modules
 #. "$DIR/bar-functions/dwm_keyboard.sh"
 #. "$DIR/bar-functions/dwm_resources.sh"
-#. "$DIR/bar-functions/dwm_music"
-. "$DIR/bar-functions/dwm_mpc.sh"
+#. "$DIR/bar-functions/dwm_mpc.sh"
 . "$DIR/bar-functions/dwm_pulse.sh"
 #. "$DIR/bar-functions/dwm_weather.sh"
 . "$DIR/bar-functions/dwm_date.sh"
@@ -46,8 +45,7 @@ while true
 do
     # Append results of each func one by one to the upperbar string
     upperbar=""
-    #upperbar="$upperbar$($DIR/bar-functions/dwm_music)"
-    upperbar="$upperbar$(dwm_mpc)"
+    # upperbar="$upperbar$(dwm_mpc)"
     upperbar="$upperbar$(dwm_pulse)"
     #upperbar="$upperbar${__DWM_BAR_WEATHER__}"
     upperbar="$upperbar$(dwm_date)"

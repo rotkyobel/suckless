@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Sarasa Mono SC:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = { "Segoe UI Emoji:pixelsize=15:antialias=true:autohint=true" };
+static char *font = "UbuntuMono Nerd Font Mono:pixelsize=22:antialias=true:autohint=true";
+static char *font2[] = { "Segoe UI Emoji:pixelsize=16:antialias=true:autohint=true", "Sarasa Term SC:pixelsize=18" };
 static int borderpx = 15;
 
 /*
